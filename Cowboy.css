@@ -1,0 +1,84 @@
+body {
+  font-family: "Bebas Neue", sans-serif;
+  margin-top: 40px;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Hand {
+  margin-bottom: 30px;
+}
+
+#wordDisplay {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+#fails {
+  font-size: 20px;
+  color: black;
+  margin-bottom: 20px;
+}
+
+#keyboard button {
+  margin: 5px;
+  padding: 10px;
+  font-size: 18px;
+  width: 40px;
+}
+#keyboard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 550px;
+  gap: 5px;
+}
+#Change-Photo {
+  height: 400px;
+  width: 250px;
+}
+#EndGame {
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  visibility: hidden;
+  top: 0;
+  left: 0;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  color: pink;
+}
+#Re-Start {
+  font-size: 20px;
+  background-color: white;
+  border: 2px solid lightpink;
+  border-radius: 10px;
+}
+#You-Win {
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  visibility: hidden;
+  top: 0;
+  left: 0;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  color: pink;
+}
+#Re-Start1 {
+  font-size: 20px;
+  background-color: white;
+  border: 2px solid lightpink;
+  border-radius: 10px;
+}
